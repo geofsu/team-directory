@@ -11,13 +11,11 @@
   <script src='dist/team-directory.js'></script>
   <script>
     var Directory = TeamDirectory(document.getElementById('app'), {
-      GitHubToken: localStorage.getItem('GitHubToken'),
-      account: 'mapbox',
+      GitHubToken: '681a867d941ecacc4b4b722096404f5890a4204a',
+      account: 'FH Team Director',
       repo: 'team-directory',
-      branch: 'test-data',
       team: 'team.json',
-      form: 'form.json',
-      filterKeys: ['github', 'fname', 'lname']
+      form: 'data/form.json',
     });
   </script>
 </body>
