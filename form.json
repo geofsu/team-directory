@@ -1,0 +1,106 @@
+{
+  "Basic information": [{
+    "key": "admin",
+    "type": "hidden"
+  }, {
+    "key": "fname",
+    "label": "First name",
+    "required": true
+  }, {
+    "key": "lname",
+    "label": "Last name",
+    "required": true
+  }, {
+    "key": "email",
+    "label": "Email",
+    "required": true
+  }, {
+    "key": "sex",
+    "label": "Gender",
+    "type": "radio",
+    "fields": [{
+      "key": "xy",
+      "label": "Male"
+    }, {
+      "key": "xx",
+      "label": "Female"
+    }]
+  }, {
+    "key": "birthday",
+    "label": "Birthday",
+    "type": "date"
+  }, {
+    "key": "call",
+    "label": "Mobile number",
+    "type": "number"
+  }, {
+    "key": "admin",
+    "label": "Grant admin access?",
+    "admin": true,
+    "type": "radio",
+    "fields": [{
+      "key": true,
+      "label": "True"
+    }, {
+      "key": false,
+      "label": "False"
+    }]
+  }, {
+    "key": "office",
+    "label": "Office",
+    "type": "radio",
+    "fields": [{
+      "key": "dc",
+      "label": "DC"
+    }, {
+      "key": "sf",
+      "label": "SF"
+    }, {
+      "key": "ayacucho",
+      "label": "Peru"
+    }, {
+      "key": "bengaluru",
+      "label": "India"
+    }]
+  }, {
+    "key": "homeaddress",
+    "label": "Home Address",
+    "type": "textarea"
+  }, {
+    "key": "teams",
+    "label": "Teams (check all that apply)",
+    "required": true,
+    "type": "checkbox",
+    "fields": [{
+      "key": "business",
+      "label": "Business"
+    }, {
+      "key": "design",
+      "label": "Design"
+    }, {
+      "key": "engineering",
+      "label": "Engineering"
+    }, {
+      "key": "operations",
+      "label": "Operations"
+    }, {
+      "key": "support",
+      "label": "Support"
+    }]
+  }],
+  "Social links": [{
+    "key": "twitter",
+    "label": "Twitter username"
+  }, {
+    "key": "github",
+    "label": "Github username",
+    "required": true
+  }, {
+    "key": "foursquare",
+    "label": "Foursquare username"
+  }, {
+    "key": "other-links",
+    "type": "add",
+    "label": "Other links"
+  }]
+}
